@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Responsive Landing Page &amp; Multiple Modals</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+    <section id="intro">
+      <div class="info">
+        <h1>MAHALINGESWARASWAMY TEMPLE</h1>
+        <p>
+          Mahalingeswaraswamy Temple, Thiruvidaimarudur is a Hindu temple dedicated to the deity Shiva, located in Tiruvidaimaruthur, a village in the South Indian state of Tamil Nadu. It is significant to the Hindu sect of Saivism as one of the seven major Shiva temples.
+        </p>
+        <a href="#content" class="button explore">Explore</a>
+      </div>
+      <div class="split-beer">
+        <img
+          class="beer"
+          src="kovil1,.jpg" />
+        <img
+          class="beer"
+          src="kovil1...jpeg" />
+        <img
+          class="beer"
+          src="kovil1....jpg" />
+      </div>
+    </section>
+
+    <section id="content">
+      <!-- Cards -->
+      <div class="card">
+        <img class="card-img" src="kovil3.jpg" />
+        <div class="title">
+          <h2>HISTORY OF THE TEMPLE</h2>
+        </div>
+        <div class="more">
+          <button class="modal-open" data-modal="modal1">
+            more<ion-icon
+              class="open-icon"
+              name="open-outline"
+              aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="card-img" src="kovil4.jpg" />
+        <div class="title">
+          <h2>LEGENDS</h2>
+        </div>
+        <div class="more">
+          <button class="modal-open" data-modal="modal2">
+            more<ion-icon
+              class="open-icon"
+              name="open-outline"
+              aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="card-img" src="kovil5.jpg"/>
+        <div class="title">
+          <h2>INSCRIPTION</h2>
+        </div>
+        <div class="more">
+          <button class="modal-open" data-modal="modal3">
+            more<ion-icon
+              class="open-icon"
+              name="open-outline"
+              aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="card-img" src="kovil1,.jpg" />
+        <div class="title">
+          <h2>ARCHITECTURE</h2>
+        </div>
+        <div class="more">
+          <button class="modal-open" data-modal="modal4">
+            more<ion-icon
+              class="open-icon"
+              name="open-outline"
+              aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="card-img" src="kovil1....jpg" />
+        <div class="title">
+          <h2>FEATURES OF THE TEMPLE</h2>
+        </div>
+        <div class="more">
+          <button class="modal-open" data-modal="modal5">
+            more<ion-icon
+              class="open-icon"
+              name="open-outline"
+              aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+      </div>
+
+       
+
+      <!-- Modals -->
+      <div class="modal" id="modal1">
+        <div class="modal-content">
+          <div class="modal-header">
+            HISTORY OF TEMPLE<button class="modal-close">
+              <ion-icon class="close-icon" name="close-outline">Close</ion-icon>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="kovil3.jpg" alt="" />
+            <ul>
+              <li>
+                There are 149 inscriptions associated with the temple indicating contributions from Pandyas, Cholas, Thanjavur Nayaks and Thanjavur Maratha kingdom 
+              </li>
+              <li>
+                The oldest parts of the present masonry structure were built during the Chola dynasty in the 9th century
+               </li>
+              <li>
+                while later expansions, including the towering gopuram gatehouses, are attributed to later periods, up to the Thanjavur Nayaks during the 16th century.
+              </li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button class="button close-btn modal-close">Close</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal" id="modal2">
+        <div class="modal-content">
+          <div class="modal-header">
+            LEGENDS<button class="modal-close">
+              <ion-icon class="close-icon" name="close-outline">Close</ion-icon>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="kovil4.jpg" alt="" />
+            <ul>
+              <li>
+                Shiva is believed to have appeared as a flame to please Agastya and other sages who were performing penance.
+              </li>
+              <li>
+                Shiva (Rudra) is said to have emanated from the heart of Mookambika.
+              </li>
+              <li>
+                It is also believed that several other deities like Vinayaga, Murugan, Parvathi, Kali, Lakshmi, Saraswathi, Brahma, Airavata (the elephant of celestial king Indra) and Vishnu worshipped Mahalingaswamy.[7]
+              </li>
+              <li>
+                According to legend, the site of the temple at Thiruvidaimarudur has been used for over 2,000 years and is associated with the Pandya king Varaguna Pandian.
+              </li>
+              <li>The temple contains inscriptions of the Hoysala kings and some Vijayanagara grants, and many records of the later Nayaks and Marathas.</li>
+              <li>
+                There are a total of 149 inscriptions associated with the temple.[7] According to legend, the site of the temple at Thiruvidaimarudur has been used for over 2,000 years and is associated with the Pandya king Varaguna Pandian. 
+              </li>
+              <li>
+                The temple contains inscriptions of the Hoysala kings and some Vijayanagara grants, and many records of the later Nayaks and Marathas.
+              </li>
+              <li>
+                The inscriptions in the walls of the temple are from Kulothunga Chola I indicating revenue survey and settlement and other additions made inside the temple.
+              </li>
+              <li>
+                This inscription (No. 32 of 1895) on the second precinct records a grant of 120 sheep for two lamps and the pujaris and inhabitants are appointed trustees of the grant.
+              </li>
+              <li>
+                The date is the 172nd day of 26th year of the reign of Kulothunga I, who conquered the Kalinga region. 
+              </li>
+              <li>
+                The other inscriptions mention the name of the queen and adore her as the "mistress of the whole world". Three other queens, Dinachintamani, Elisai Vallabhi and Tyagavalli.
+              </li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button class="button close-btn modal-close">Close</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal" id="modal3">
+        <div class="modal-content">
+          <div class="modal-header">
+            INSCRIPTION<button class="modal-close">
+              <ion-icon class="close-icon" name="close-outline">Close</ion-icon>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="kovil5.jpg" alt="" />
+            <ul>
+              <li>
+                The temple is also famous historically for devadasi tradition, which involves donating dance women to the temple during the medieval period.
+              </li>
+              <li>
+                The inscriptions indicate the tradition, dances, rearrangement during festivals and procession of deities during festivals.
+              </li>
+              <li>
+                The record is dated in the seventh reignal year of Vikrama Chola (1118-35 CE). 
+              </li>
+              <li>
+                There are five inscriptions in this vein from the 10th century and there are three later inscriptions date 1123 CE, 1142 CE and 1218 CE.
+              </li>
+              <li>
+                The possible reasoning for the hundred-year gap indicates the shifting of all temple women to Brihadeeswarar temple by Rajaraja I.
+              </li>
+              <li>
+                Since the temple received lot of gifts, the Cholas deputed a special army to protect the endowments.
+              </li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button class="button close-btn modal-close">Close</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal" id="modal4">
+        <div class="modal-content">
+          <div class="modal-header">
+            ARCHITECTURE<button class="modal-close">
+              <ion-icon class="close-icon" name="close-outline">Close</ion-icon>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="kovil1,.jpg" alt="" />
+            <ul>
+              <li>
+                Mookambigai Amman shrine.[7] The temple was widely expanded during the Nayak period in the 16th century with the development of twin Mahalinga and Devi shrines.
+              </li>
+              <li>
+                The shrines of Muruga and Nataraja are enshrined in the spaces between the pier. There are other shrines for Padithurai Vinayagar and Agora Veerabadrar.
+
+              </li>
+              <li>
+                The three precincts are called Aswametha Pradakshina, Kodumudi and Pranava. The Vinayagar in the Southern side is called Anda Vinayagar and as per Hindu legend, the Vinayagar ruled the world and hence obtained the name.
+              </li>
+              <li>
+                Pranava precinct has lot of sculptures dating back to the Nayak period of the 16th century. One of the notable among them is the sculpture of a chariot having twelve pillars, each denoting the twelve lagnas. 
+              </li>
+              <li>
+                In the northern portion of Kodumudi precinct, there is an image of Chokkanathar.
+              </li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button class="button close-btn modal-close">Close</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal" id="modal5">
+        <div class="modal-content">
+          <div class="modal-header">
+            FEATURES OF THE TEMPLE<button class="modal-close">
+              <ion-icon class="close-icon" name="close-outline">Close</ion-icon>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="kovil1....jpg" alt="" />
+            <ul>
+              <li>
+                Vaigasi (May). 63 Nayanmar Ula and Aruthra Darshan( like in Chidambaram) are the other two important temple festivals.
+              </li>
+              <li>
+                There are 27 star lingas, the prince "Ammani Ammal" Vigragam and Chitra prakaram(enclosed precincts of a temple) which is full of painting
+              </li>
+              <li>
+                There are several charitable trusts, one of them being "Pachhiyappa Mudhaliyar ArakattaLai".
+              </li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button class="button close-btn modal-close">Close</button>
+          </div>
+        </div>
+      </div>
+
+       
+    </section>
+
+    <footer>
+      <p>
+         © 2021 MAHALINGESWARASWAMY Temple. All rights reserved | Design by
+         <a href="#">BHARANI</a>
+      </p>
+    </footer>
+</body>
+<!-- partial -->
+  <script src='https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js'></script>
+<script src='https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
